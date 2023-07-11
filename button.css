@@ -1,0 +1,50 @@
+
+            .lon-button{
+                background-color: red;
+                color: white;
+                border: none;
+                border-radius: 16px;
+                cursor: pointer;
+                font-weight: bold;
+                transition: opacity 0.5s;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .lon-button:hover {
+                opacity: 0.5;
+            }
+            .lon-button:active{
+                opacity: 0.1;
+            }
+            .cuto-button{
+                background-color: white;
+                color: rgb(50, 118, 211);
+                cursor: pointer;
+                margin-left: 8px;
+                border-radius: 16px;
+                height: 36px;
+                width: 62px;
+                border-color: rgb(50, 118, 211);
+                transition: background-color 1s,height 0.5s,width 0.5s;
+                font-weight: bold;
+                font-size: 15px;
+            }
+            .cuto-button:hover{
+                background-color:rgb(50, 118, 211) ;
+                color: white;
+                box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.15);
+                height: 42px;
+                width: 68px;
+            }
+            .cuto-button:active{
+                opacity: 0.7;
+            }
+            .word-p{
+                color: red;
+            }
+            .sex,
+            .word-p{
+                display: inline-block;
+            }
